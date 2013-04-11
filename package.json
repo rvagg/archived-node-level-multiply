@@ -1,0 +1,29 @@
+{
+    "name"             : "level-multiply"
+  , "description"      : "Make LevelUP's get(), put() and del() accept multiples keys & values"
+  , "version"          : "0.0.0"
+  , "homepage"         : "https://github.com/rvagg/level-multiply"
+  , "authors"          : [
+        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+    ]
+  , "keywords"         : [ "leveldb", "levelup" ]
+  , "main"             : "./level-multiply.js"
+  , "repository"       : {
+        "type"             : "git"
+      , "url"              : "https://github.com/rvagg/level-multiply.git"
+    }
+  , "dependencies"     : {
+        "after"            : "~0.7.0"
+    }
+  , "peerDependencies" : {
+    }
+  , "devDependencies"  : {
+        "tap"              : "*"
+      , "levelup"          : "git+https://git@github.com/rvagg/node-levelup.git#0.8-wip"
+      , "rimraf"           : "~2.1.4"
+    }
+  , "scripts"          : {
+        "test"             : "node ./test.js"
+    }
+  , "license"          : "MIT"
+}
